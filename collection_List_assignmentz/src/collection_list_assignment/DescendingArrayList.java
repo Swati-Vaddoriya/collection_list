@@ -9,7 +9,6 @@ public class DescendingArrayList {
 
 		System.out.println(" ***** Sort Array in descending order  *****");
 
-		ArrayList<Integer> sortedNumbers = new ArrayList<>();
 		ArrayList<Integer> numbers = new ArrayList<>();
 		numbers.add(10);
 		numbers.add(90);

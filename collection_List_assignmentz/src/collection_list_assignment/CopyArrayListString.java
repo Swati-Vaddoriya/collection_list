@@ -14,12 +14,12 @@ public class CopyArrayListString {
 		names.add("Aarav");
 		names.add("Swati");
 		names.add("Amit");
-		System.out.println(names);
+		System.out.println("Original array list : "+names);
 
 		for (int i = 0; i < names.size(); i++) {
 			names2.add(names.get(i));
 		}
-		System.out.println(names2);
+		System.out.println("Copied array list : "+names2);
 	}
 
 }
